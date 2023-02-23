@@ -36,8 +36,6 @@
     top: 0; left: 0; bottom:0;
     background:#222;
     display: flex;
-    /* align-items: center; */
-    /* justify-content: space-between; */
     z-index: 1000;
     flex-flow: column;
     padding: 8rem 2rem;
@@ -90,13 +88,10 @@
     border-radius: 10px;
   }
   .profesi{
-    /* margin-left:2.5px; */
-    /* background-color: #222; */
     font-weight: bolder;
     font-size: 2rem;
     color: white;
     padding: 10px;
-    /* border-radius: 20px; */
     animation: Color 4s linear infinite;
     -webkit-animation: Color 4s ease-in-out infinite;
     text-shadow: 2px 2px #00000077;
@@ -185,9 +180,7 @@
     padding-left: 10px;
   }
   .intro{
-    /* padding-left: 10px; */
     margin-bottom: 20px;
-    /* margin-left: 10px; */
     color: #fff;
   }
   .btn{
@@ -196,7 +189,6 @@
     background-color: #222;
     font-weight: bolder;
     max-height: 25px;
-    /* margin-left: 2px; */
     padding: 5px;
     border-radius: 5px;
   }
@@ -205,30 +197,11 @@
     color:#222;
     background-color: var(--main-color)
   }
-/* .navbar-nav{
-    position: absolute;
-    right: 40px;
-}
-
-.navbar-brand{
-    color: white;
-} */
-
-/* .navbar{
-    background-color:coral;
-} */
-
-/* a {
-    color: white;
-    font-family: sans-serif;
-} */
 
 .home .card-item{
     flex: 1 1 40rem;
     width: 100%;
-    /* border: 1px solid black; */
     padding: 20px;
-    /* background-color: #fff; */
     border-radius: 20px;
 }
 
@@ -247,21 +220,16 @@
     height: inherit;
     max-width: 1080px;
     display: flex;
-    /* flex-direction: row; */
     justify-content: space-between;
     align-items: center;
-    /* margin: 0 auto; */
 }
 
 .name{
     color: #222;
     padding: 5px 10px;
-    /* margin-left: 2.5px; */
     margin-bottom: 0;
     max-width:max-content;
     font-size: 3rem;
-    /* background-color: #fff;
-    border-radius: 30px; */
 }
 
 .name b{
@@ -303,7 +271,6 @@
 
 .about .row-1 .content h3{
   color: #1e1c1c;
-  /* text-shadow: -1px 0 #ffffffa4, 0 1px #ffffffa4, 1px 0 #ffffffa4, 0 -1px #ffffffa4; */
   font-size: 2.5rem;
 }
 .about .row-1 .content h3 b{
@@ -346,25 +313,9 @@
 .heading span{
   color: var(--main-color);
 }
-/* table{
-  padding: 5px;
-  padding-top: 20px;
-}
-table td{
-  padding-bottom: 15px;
-} */
 .date{
     user-select: none;
-    /* margin: 0; */
 }
-/* .name{
-    margin-bottom: 25px;
-}
-span {
-    display: flex;
-    flex-direction: row;
-    padding: 30px;
-}*/
 
 .contact{
   margin-top: 10rem;
@@ -551,13 +502,6 @@ span {
     transform: scale(0.7);
   }
   .btn{
-    max-height: 20px;
+    max-height: 25px;
   }
-  /* .profesi{
-    background-color: #fff;
-    color: #222;
-  }
-  .intro{
-    color: #fff;
-  } */
 }
